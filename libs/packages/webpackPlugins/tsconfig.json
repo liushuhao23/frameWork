@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "ES2018",
+      "module": "CommonJS",
+      "declaration": true,
+      "outDir": "dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "pretty": true,
+      "jsx": "react",
+      "resolveJsonModule": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    },
+    "include": ["src", "utils", "src/temp"],
+    "awesomeTypescriptLoaderOptions": {
+      // 加速编译
+      "useBabel": true
+    }
+  }
+  

@@ -1,0 +1,22 @@
+[[mock.micro_apps]]
+name = '流程管理'    
+url = 'http://localhost:3001/'
+baseroute = 'test1'
+code = 'test1'
+
+
+[[mock.micro_apps]]
+name = '测试应用'    
+url = 'http://localhost:3002/'
+baseroute = 'test2'
+code = 'test2'
+
+[[mock.micro_apps]]
+name = '算法练习'    
+url = 'http://localhost:3004/'
+baseroute = 'algorithm'
+code = 'algorithm'
+
+
+[server]
+root_url = ''

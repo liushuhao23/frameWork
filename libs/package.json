@@ -1,0 +1,30 @@
+{
+  "name": "libs",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "client:lernaChanged": "scripty",
+    "client:lernaPublish": "scripty",
+    "client:nrmnpm": "scripty",
+    "client:npmlogin": "scripty"
+  },
+  "devDependencies": {
+    "lerna": "^5.5.1"
+  },
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "microbundle": "^0.14.2",
+    "prettier": "^2.3.2",
+    "scripty": "^2.1.0",
+    "typescript": "^4.6.3"
+  }
+}

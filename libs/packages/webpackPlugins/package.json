@@ -1,0 +1,48 @@
+{
+  "name": "@works/webpack-conversion",
+  "version": "1.17.17",
+  "description": "🇫🇯 webpack 插件",
+  "author": "刘书豪 <liushuhao@cadg.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist",
+    "node_modules"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://8.141.175.228:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@8.141.175.228:liushuhao/framework.git"
+  },
+  "scripts": {
+    "dev": "microbundle",
+    "server": "node src/index.js",
+    "build": "babel src -d dist --copy-files",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "prettier": "^2.3.2",
+    "single-line-log": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/preset-env": "^7.18.10",
+    "eslint": "^7.29.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "packages": ["packages/*"],
+  "npmClient": "pnpm",
+  "version": "independent",
+  "useWorkspaces": true,
+  "publishConfig": {
+    "registry": "http://8.141.175.228:4873/"
+  },
+  "command": {
+    "publish": {
+      "ignoreChanges": ["**/node_modules/**"],
+      "message": "feat: chore: release"
+    }
+  }
+}

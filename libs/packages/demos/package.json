@@ -1,0 +1,31 @@
+{
+  "name": "@works/demos",
+  "version": "1.11.5",
+  "description": "🇫🇯 home 负责首页",
+  "author": "刘书豪 <liushuhao@cadg.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://8.141.175.228:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@8.141.175.228:liushuhao/framework.git"
+  },
+  "scripts": {
+    "dev": "microbundle",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@works/core": "^1.1.9",
+    "xstate": "^4.31.0"
+  }
+}
